@@ -5,33 +5,32 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server-hosted", "server-hosted", "{790B0B93-E709-45B1-97AC-2E216830C0E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "None", "server-hosted\None\None.csproj", "{A81211EE-E4C9-456E-8084-44BAA909F3A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "None", "server-hosted\None\None.csproj", "{A81211EE-E4C9-456E-8084-44BAA909F3A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "server-hosted\Server\Server.csproj", "{1C22E304-3F6E-4DC0-B5C1-E9DDF5CD2D98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "server-hosted\Server\Server.csproj", "{1C22E304-3F6E-4DC0-B5C1-E9DDF5CD2D98}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAssembly", "WebAssembly", "{A1F7544F-8A32-4FF4-BCE3-68F53FFAC733}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAssembly", "server-hosted\WebAssembly\WebAssembly\WebAssembly.csproj", "{5FB1023C-3F77-4BB8-AD47-D23F0D956376}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAssembly", "server-hosted\WebAssembly\WebAssembly\WebAssembly.csproj", "{5FB1023C-3F77-4BB8-AD47-D23F0D956376}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAssembly.Client", "server-hosted\WebAssembly\WebAssembly.Client\WebAssembly.Client.csproj", "{3B81CA5F-41BF-46D8-9BF5-2F848BAB25A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAssembly.Client", "server-hosted\WebAssembly\WebAssembly.Client\WebAssembly.Client.csproj", "{3B81CA5F-41BF-46D8-9BF5-2F848BAB25A9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auto", "Auto", "{99B556B7-0853-49D3-B7D2-DE8E5FA0ECE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auto", "server-hosted\Auto\Auto\Auto.csproj", "{9DA750D2-7DFF-4FBA-987C-2A512343AE13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto", "server-hosted\Auto\Auto\Auto.csproj", "{9DA750D2-7DFF-4FBA-987C-2A512343AE13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auto.Client", "server-hosted\Auto\Auto.Client\Auto.Client.csproj", "{96667F0E-377F-48DB-9C01-76BAB8ED731A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto.Client", "server-hosted\Auto\Auto.Client\Auto.Client.csproj", "{96667F0E-377F-48DB-9C01-76BAB8ED731A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wasm", "wasm\wasm.csproj", "{2DF6D87E-BF08-4A62-BEAB-4DA7494B5F76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wasm", "wasm\wasm.csproj", "{2DF6D87E-BF08-4A62-BEAB-4DA7494B5F76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maui-blazor", "maui-blazor\maui-blazor.csproj", "{9579F489-80F8-42E0-9524-0CCB7CC591BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "maui-blazor", "maui-blazor\maui-blazor.csproj", "{9579F489-80F8-42E0-9524-0CCB7CC591BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorPageScript", "..\src\BlazorPageScript.csproj", "{04A5D047-5B9B-40EF-9BDD-24ED5803ECCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A81211EE-E4C9-456E-8084-44BAA909F3A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -64,8 +63,16 @@ Global
 		{2DF6D87E-BF08-4A62-BEAB-4DA7494B5F76}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9579F489-80F8-42E0-9524-0CCB7CC591BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9579F489-80F8-42E0-9524-0CCB7CC591BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9579F489-80F8-42E0-9524-0CCB7CC591BC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{9579F489-80F8-42E0-9524-0CCB7CC591BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9579F489-80F8-42E0-9524-0CCB7CC591BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04A5D047-5B9B-40EF-9BDD-24ED5803ECCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A5D047-5B9B-40EF-9BDD-24ED5803ECCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A5D047-5B9B-40EF-9BDD-24ED5803ECCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A5D047-5B9B-40EF-9BDD-24ED5803ECCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A81211EE-E4C9-456E-8084-44BAA909F3A7} = {790B0B93-E709-45B1-97AC-2E216830C0E9}
@@ -76,5 +83,8 @@ Global
 		{99B556B7-0853-49D3-B7D2-DE8E5FA0ECE5} = {790B0B93-E709-45B1-97AC-2E216830C0E9}
 		{9DA750D2-7DFF-4FBA-987C-2A512343AE13} = {99B556B7-0853-49D3-B7D2-DE8E5FA0ECE5}
 		{96667F0E-377F-48DB-9C01-76BAB8ED731A} = {99B556B7-0853-49D3-B7D2-DE8E5FA0ECE5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E753488-1783-4C83-A1EF-4D074CEEB306}
 	EndGlobalSection
 EndGlobal
