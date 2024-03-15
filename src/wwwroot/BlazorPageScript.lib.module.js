@@ -65,6 +65,7 @@ function onEnhancedLoad() {
 }
 
 export function afterWebStarted(blazor) {
+    console.log("afterWebStarted");
     customElements.define('page-script', class extends HTMLElement {
         static observedAttributes = ['src'];
 
